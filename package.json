@@ -1,0 +1,32 @@
+{
+  "name": "kechita-nextjs-full",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build && next export -o out",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "node ./scripts/run-tests.js",
+    "format": "prettier --write .",
+    "test:e2e": "playwright test",
+    "ci:lighthouse": "lhci autorun --upload.postProcessServerBaseUrl=$LHCI_SERVER --upload.token=$LHCI_TOKEN || true"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swr": "2.2.0",
+    "@supabase/supabase-js": "^2.30.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.5.4",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.48.0",
+    "prettier": "2.8.8",
+    "@playwright/test": "^1.40.0",
+    "@lhci/cli": "^0.8.0",
+    "playwright": "^1.40.0"
+  }
+}

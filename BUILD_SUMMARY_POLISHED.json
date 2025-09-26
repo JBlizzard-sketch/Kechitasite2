@@ -1,0 +1,15 @@
+{
+  "polish_zip": "/mnt/data/kechita-nextjs-full-polished.zip",
+  "missing_files_after_polish": [],
+  "images_added": [
+    "public/images/logo.svg",
+    "public/images/hero-large.svg",
+    "public/images/market-stall.svg",
+    "public/images/team-portrait.svg",
+    "public/images/product-cover.svg",
+    "public/images/testimonial-amina.svg",
+    "public/images/testimonial-john.svg",
+    "public/images/testimonial-fatuma.svg"
+  ],
+  "notes": "Created local SVG images to remove placeholders and improve visual weight."
+}

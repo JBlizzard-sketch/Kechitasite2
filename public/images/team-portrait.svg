@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#095a41"/><stop offset="1" stop-color="#0b8f5a"/></linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g3)"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#fff">
+    <text x="5%" y="45%" font-size="40" font-weight="700">Our Team</text>
+    <text x="5%" y="60%" font-size="20" fill="#f0f7f2">Local support crew</text>
+  </g>
+</svg>
